@@ -1,0 +1,70 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Avenir", "Montserrat", /*"Courier New",*/  "Courier", "Comic Sans MS";
+}
+
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	background-color: purple;
+	border-radius: 15%;
+	transition: background 0.6s;
+
+}
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+h1{
+	color: white;
+	text-align: center;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	background: steelblue;
+	padding: 20px 0;
+}
+
+#displayColor{
+	font-size: 140%;
+}
+
+#stripe{
+	background-color: white;
+	height: 25px;
+	text-align: center;
+	color: black;
+}
+
+#message{
+	display: inline-block;
+	width: 20%
+
+}
+
+.selected{
+	color: white;
+	background-color: steelblue;
+}
+
+button{
+	border: none;
+	background:none;
+	height: 100%;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: 600;
+	color: steelblue;
+	text-transform: uppercase;
+	transition: all 0.5s;
+	outline: none;
+}
+
+button:hover{
+	color: white;
+	background-color: steelblue;
+}
+
